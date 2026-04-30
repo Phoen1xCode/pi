@@ -5,6 +5,7 @@
 ### Added
 
 - Added `AssistantMessage.responseModel` on the openai-completions path: surfaces the concrete `chunk.model` when it differs from the requested id (e.g. OpenRouter `auto` -> `anthropic/...`).
+- Added Xiaomi MiMo provider (openai-completions compatible)
 
 ### Fixed
 
