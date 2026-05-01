@@ -1220,7 +1220,7 @@ async function generateModels() {
 					? {
 							requiresReasoningContentOnAssistantMessages:
 								deepseekCompat.requiresReasoningContentOnAssistantMessages,
-							reasoningEffortMap: deepseekCompat.reasoningEffortMap,
+							thinkingFormat: deepseekCompat.thinkingFormat,
 						}
 					: deepseekCompat),
 			};
